@@ -119,7 +119,19 @@ font-weight: 500;
 }
 
 @media screen and (max-width: 576px) {
-   
+    /* nav responsive */
+    .nav-bar{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        padding: 20px 80px;
+        justify-content: space-around;
+    }
+    .nav-bar ul {
+       flex-direction: column;
+        justify-content: center;
+    }
+   /* Footer responsive */
     .footer-logo-container, .footer-navigation ul {
         justify-items: center;
         padding-left: 30px;
