@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
 *{
    
-    
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -89,17 +89,18 @@ font-family: Work Sans;
 }
 .online-img-section{
     display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    gap:20px;
+    
    
 }
 .online-img{
-    width: 200px;
-    height: 230px;
+    width: 220px;
+    height: 280px;
     border-radius: 16px;
+    margin: 0px auto;
 }
- 
 
 /* Footer Style */
 .footer{
