@@ -1,0 +1,112 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+*{
+   
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.site-title{
+    color: #FFF;    
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+
+}
+.title-first-word{
+   color:#FF42A5 ; 
+}
+.site-heading{
+   display: flex;
+   padding-top: 100px;
+   align-items: center;
+   justify-content: center;
+}
+.logo-img{
+    
+    width: 80px;
+    height: 40px;
+}
+/* Footer Style */
+.footer{
+    
+    height: 636px;
+     background: #0B0223;;
+    border: 1px solid rebeccapurple;
+}
+.footer-navigation ul, .footer-conditions ul{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   padding-top: 40px;
+
+}
+.footer-navigation > li, .footer-conditions >li{
+    list-style: none;
+}
+.footer-navigation ul li a, .footer-conditions a{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-conditions a{
+    
+    color: rgba(255, 255, 255, 0.60); 
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.copy-write {
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+font-size: 16px;
+font-weight: 500;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    color: #FFF;
+}
+.fa-brands{
+    margin: 30px;
+    
+}
+
+@media screen and (max-width: 576px) {
+   
+    .footer-logo-container, .footer-navigation ul {
+        justify-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-conditions ul  {
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+    
+   .copy-write{
+    padding: 10px 120px;
+    text-align: center;
+   }
+    .fa-brands{
+        margin: 5px;
+    }
+     .footer-conditions ul {
+        gap: 10px;
+        padding-top: 20px;
+}
+}

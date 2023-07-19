@@ -1,0 +1,16 @@
+/* Responsive for mobile */
+@media screen and (max-width: 576px;) {
+    .footer-navigation{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+    }
+    .footer-conditions{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .footer-logo-container{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    
+}
