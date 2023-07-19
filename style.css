@@ -350,7 +350,7 @@ color: rgb(241, 58, 153);
     align-items: center;
     padding-right: 15px;
 }
-    /* game type rese */
+    /* game type responsive */
 .first-game ,.second-game{
     
     margin-bottom: 10px;
@@ -405,4 +405,62 @@ color: rgb(241, 58, 153);
         padding-top: 30px;
     }
 }
+@media screen and  (min-width: 577px)  and (max-width: 900px){
+    .nav-bar {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 80px;
+        justify-content: space-around;
+    }
+    .nav-logo-container{
+        margin: 25px 35px;
+     
+        justify-content: center;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* banner part */
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    justify-content: center;
+    gap: 50px;
+    }
+    .btn button{
+      padding-top:  10px;
+    }
+    /* 
+    Online part */
+    .online-img-section {
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .game-play{
+        display:  flex;
+        gap: 5px;
+        height: 35vh;
+        justify-content: center;
+    }
+    .first-game{
+        display: grid;
+        padding-top: 1vh;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .second-game{
+        padding: 30px 0 0 0 ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .games-type-container{
+        height: 40vh;
+        margin-bottom: 0px;
+    }
+    
 }
