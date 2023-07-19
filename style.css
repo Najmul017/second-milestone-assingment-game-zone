@@ -107,8 +107,8 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.banner-paragraph{
-    padding-bottom: 80px;
+#banner-paragraph{
+    padding-bottom: 10px;
 }
 
 .banner-photo{
