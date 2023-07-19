@@ -28,6 +28,43 @@ font-weight: 700;
     width: 80px;
     height: 40px;
 }
+
+/* Nav bar styles */
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+}
+.nav-bar{
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-around;
+}
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.nav-bar ul a{
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+height: 56px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.link-logo i{
+    margin: 0px 3px;
+}
 /* Footer Style */
 .footer{
     
@@ -99,7 +136,7 @@ font-weight: 500;
     }
     
    .copy-write{
-    padding: 10px 120px;
+    padding: 20px 120px;
     text-align: center;
    }
     .fa-brands{
@@ -107,6 +144,9 @@ font-weight: 500;
     }
      .footer-conditions ul {
         gap: 10px;
-        padding-top: 20px;
+        padding-top: 20;
+}
+.site-heading{
+    padding-top:  30px;
 }
 }
