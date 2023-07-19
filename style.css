@@ -2,44 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
 
 * {
-
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-
 .site-title {
     color: #FFF;
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
-
 }
-
 .title-first-word {
     color: #FF42A5;
 }
-
 .site-heading {
     display: flex;
     padding-top: 100px;
     align-items: center;
     justify-content: center;
 }
-
 .logo-img {
-
     width: 80px;
     height: 40px;
 }
-
 .title {
     color: #0B0223;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
-
 /* Nav bar styles */
 .nav-logo-container {
     display: flex;
@@ -48,48 +40,95 @@
     font-size: 45px;
     font-weight: 700;
 }
-
 .nav-bar {
     display: flex;
     padding: 20px 80px;
     justify-content: space-around;
 }
-
 .nav-bar ul li {
     list-style: none;
 }
-
 .nav-bar ul {
     display: flex;
     align-items: center;
     gap: 32px;
 }
-
 .nav-bar ul a {
     text-decoration: none;
 }
-
 .box {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 262px;
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-
-.link-logo i {
-    margin: 0px 3px;
+.link-logo{
+    text-align: center;
+    padding-bottom: 5px;
 }
-
 .description {
     color: #534C64;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+/* Banner Style start  */
+.banner-text{
+    align-content: center;
 
+}
+.banner-container{
+    
+    padding: 20px 80px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.banner-image{
+    
+    
+}
+.banner-highlight{
+font-size: 75px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-paragraph{
+    padding-bottom: 80px;
+   
+    
+}
+
+.banner-photo{
+    height: 450px;
+    width: 400px;
+}
+.button-one{
+    border: 0;
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.btn .button-two{
+    border: 0;
+    padding: 15px 90px;
+    border-radius: 48px;
+background: #4EC5F7;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
 /* online game part style */
 .online-img-section {
     margin: 0 auto;
